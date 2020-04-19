@@ -91,6 +91,10 @@ Se pide encontrar la manera de trasladar a los misioneros y a los caníbales a l
   
     Para la resolución del problema propuesto se utilizó un algoritmo bfs (búsqueda en profundidad). Al tratarse de un algoritmo de búsqueda no informada, no se encontró una heurística admisible.
     
+  * **Representar esta solución en un programa. Esta solución debe indicar la forma en que se moverán las piezas.**
+  
+    La solución se encuentra en el archivo semana2_sisin.py
+    
   * **¿Qué pasa si aumentamos el número de piezas del juego?**
   
     Depende. Si se mantiene la regla de 2 personas por bote, al aumentar el número de misioneros y caníbales el problema no tendría solución. Pero si se aumenta la cantidad de personas por bote, se puede solucionar.
