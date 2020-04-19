@@ -4,7 +4,7 @@ Se pide encontrar la manera de trasladar a los misioneros y a los caníbales a l
 
 ![alt text](https://miro.medium.com/max/829/1*lrYS8lSDLJdUGCmgnCxkTg.png "Misioneros y canívales")
 
-* Representar el espacio de problemas (Asumo que se refiere al espacio de estados del problema)
+* **Representar el espacio de problemas (Asumo que se refiere al espacio de estados del problema)**
 
   Para el estado inicial se asume que hay 3 misioneros del lado incorrecto, 3 canívales del lado incorrecto y el bote también está del lado         incorrecto:
 
@@ -86,3 +86,11 @@ Se pide encontrar la manera de trasladar a los misioneros y a los caníbales a l
   --- | :---: | :---: | :---:
   En el estado (0,2,1), mover 2 canívales | 0 | 0 | 0
   En el estado (1,1,1), mover 1 caníval y 1 misionero | 0 | 0 | 0
+  
+  * **¿Qué funciones heurísticas admisibles se te ocurren para guiar un algoritmo de búsqueda que encuentre la solución óptima a este problema?**
+  
+    Para la resolución del problema propuesto se utilizó un algoritmo bfs (búsqueda en profundidad). Al tratarse de un algoritmo de búsqueda no informada, no se encontró una heurística admisible.
+    
+  * **¿Qué pasa si aumentamos el número de piezas del juego?**
+  
+    Depende. Si se mantiene la regla de 2 personas por bote, al aumentar el número de misioneros y caníbales el problema no tendría solución. Pero si se aumenta la cantidad de personas por bote, se puede solucionar.
